@@ -1,0 +1,48 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url('bg2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h-10{
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+}
+
+.h-90{
+    height: 90vh;
+    width: 100vw;
+}
+
+.header{
+    color: white;
+    float: right;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    line-height: 10vh;
+    margin-right: 70px;
+    font-weight: 150px;
+    font-family: 'Trebuchet MS';
+    font-style: bold;
+}
+
+li:hover{
+    color : navy;
+    cursor: pointer;
+    transition: color 0.9s;
+    transition-timing-function: ease;
+}
+
+::selection {
+    color: none;
+}
+
+
+
+
